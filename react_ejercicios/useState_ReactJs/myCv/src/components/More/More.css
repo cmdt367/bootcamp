@@ -1,0 +1,32 @@
+.moreInfo{
+    width: 40vw;
+    gap:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.divLanguages{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:5px;
+    width: 100%;
+}
+.divHabilities{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.divVolunteer{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+.infoDescription{
+    font-size: 14px;
+    font-style: italic;
+}

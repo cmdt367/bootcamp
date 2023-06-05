@@ -1,0 +1,14 @@
+.divExperience{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    padding:2rem;
+    text-align: center;
+    gap:10px;
+}
+.description{
+    padding:5px;
+    font-style:italic;
+}

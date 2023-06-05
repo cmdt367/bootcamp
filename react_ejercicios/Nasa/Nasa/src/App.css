@@ -1,0 +1,17 @@
+.divApp{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  margin: 10px 0;
+}
+#inputDate{
+  height: 35px;
+  width: 150px;
+  text-align: center;
+  border-radius: 5px;
+}
+.h2Title{
+  font-size: 65px;
+}

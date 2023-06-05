@@ -1,0 +1,23 @@
+figure{
+    width: 60vw;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+figure img{
+    width: 60vw;
+    height: 60vh;
+}
+.detailsBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+.explanation{
+    width:50vw;
+}

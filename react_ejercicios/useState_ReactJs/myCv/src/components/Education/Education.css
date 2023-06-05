@@ -1,0 +1,20 @@
+.divEducation{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    padding:2rem;
+}
+.divContenido{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    width: 30vw;
+    gap:20px;
+    text-align: center;
+}
+.divContenido h3{
+    padding-bottom: 5px;
+}

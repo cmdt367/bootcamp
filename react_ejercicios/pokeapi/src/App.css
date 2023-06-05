@@ -1,0 +1,49 @@
+.divContainer{
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: crimson;
+}
+.divContainer h1{
+  font-size: 65px;
+  color: antiquewhite;
+  border-bottom: 2px solid antiquewhite;
+}
+.divContainer button{
+  background-color: rgb(255, 215, 162);
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+}
+.divContainer input{
+  background-color: antiquewhite;
+  height: 30px;
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+}
+.divCard{
+  height: 60vh;
+  width: 40vw;
+  border:2px solid blue;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.divCard div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.divCard img{
+  height: 200px;
+  width: 200px;
+
+}
