@@ -1,21 +1,23 @@
 import { useEffect, useState } from 'react'
 import './App.css'
 import axios from "axios"
-import FigureNasa from './components/FigureNasa/FigureNasa'
+import FigureNasa from './components/FigureNasa'
 
 
 function App() {
-  const apiKey = "Cuu6jrHdKVMfxl7Y1qw6ead8mbxP9ZKKHhiPRqAW"
-  const nasaUrl="https://api.nasa.gov/planetary/apod"
+  const apiKey = import.meta.env.VITE_NASA_API_KEY
+  const nasaUrl= import.meta.env.VITE_NASA_URL
   const today = new Date(Date.now()).toISOString().slice(0,10)
   const [apod, setApod]=useState({})
   const [date, setDate]=useState(today)
-
+  console.log(apiKey)
   useEffect(()=>{
     const getApod = async()=>{
       const data = await axios.get(
         `${nasaUrl}?date=${date}&api_key=${apiKey}`
-      )
+      ) 
+      console.log(apiKey)
+      
       setApod(data.data)
       console.log(data)
     }
