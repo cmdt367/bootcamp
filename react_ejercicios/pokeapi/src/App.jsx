@@ -1,9 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import searchPokemon from './services/axiosPokeapi';
-import PrintCard from './components/PrintCard/PrintCard';
 import axios from 'axios';
-
+import PrintCard from './components/PrintCard';
 
 function App() {
   let namePokemon=false
@@ -52,7 +50,8 @@ function App() {
     <div className='divCard'>
       {(pokemonChosen
         ? 
-        <PrintCard data={pokemon}/>
+        <PrintCard data={pokemon}/> 
+      
         : 
         <div>
         <h1>Pon un Pokemon</h1>
